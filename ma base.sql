@@ -1,0 +1,1 @@
+SELECT * FROM db0072769.etudiants;

@@ -1,0 +1,43 @@
+.root {
+    -fx-background-color: #f7f7f7; /* Fond de l'interface clair */
+}
+
+.label {
+    -fx-text-fill: #2c3e50; /* Texte principal en couleur plus foncée */
+    -fx-font-size: 16px; /* Taille de police */
+}
+
+.text-field {
+    -fx-border-color: #7f8c8d; /* Bordure légèrement plus foncée */
+    -fx-background-color: #ffffff; /* Fond blanc */
+    -fx-padding: 8; /* Espacement interne */
+    -fx-font-size: 16px; /* Taille de police */
+}
+
+.button {
+    -fx-background-color: #95a5a6; /* Couleur de fond du bouton en gris */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-padding: 12; /* Espacement interne */
+    -fx-font-size: 16px; /* Taille de police */
+    -fx-background-radius: 8; /* Coins arrondis */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.0, 0, 1); /* Ombre légère */
+}
+
+.button:hover {
+    -fx-background-color: #7f8c8d; /* Couleur au survol en gris plus foncé */
+}
+
+.success {
+    -fx-text-fill: #27ae60; /* Texte de succès en vert vif */
+    -fx-font-weight: bold; /* Texte en gras */
+}
+
+.error {
+    -fx-text-fill: #e74c3c; /* Texte d'erreur en rouge vif */
+    -fx-font-weight: bold; /* Texte en gras */
+}
+
+.vbox {
+    -fx-spacing: 20; /* Espacement entre les éléments */
+    -fx-alignment: center; /* Centrer les éléments */
+}
